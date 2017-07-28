@@ -32,7 +32,7 @@
         <div class="offset-2 col-8">
             <form id="registro">
                 <div class="form-group">
-                    <label for="nombre">Nombre</label>
+                    <label class="form-control-label" for="nombre">Nombre</label>
                     <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombreHelp" placeholder="Ingrese su nombre">
                 </div>
 
@@ -55,7 +55,7 @@
 
                 <div class="form-group">
                     <label for="repetir_clave">Repita su clave</label>
-                    <input type="password" class="form-control" id="repetir_clave" name="repetir_clave" aria-describedby="repetir_claveHelp" placeholder="Ingrese su clave de nuevo">
+                    <input type="password" class="form-control" id="repetir-clave" name="repetir-clave" aria-describedby="repetir_claveHelp" placeholder="Ingrese su clave de nuevo">
                     <small id="repetir_claveHelp" class="form-text text-muted">Vuelva a ingresar su clave.</small>
                 </div>
 
@@ -70,6 +70,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.validate.js"></script>
+<script src="js/localization/messages_es_PE.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
